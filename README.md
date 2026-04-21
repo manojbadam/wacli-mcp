@@ -48,8 +48,8 @@ Read recent messages from a WhatsApp chat.
 
 All tools that accept a contact identifier support three formats:
 
-- **Contact name** - e.g. `"Ankit Agarwal"` (searched via `wacli contacts search`)
-- **Phone number** - e.g. `"+1 (555) 123-4567"` or `"16502086463"` (stripped to digits and converted to JID)
+- **Contact name** - e.g. `"John Doe"` (searched via `wacli contacts search`)
+- **Phone number** - e.g. `"+1 (555) 123-4567"` or `"15551234567"` (stripped to digits and converted to JID)
 - **JID** - e.g. `"1234567890@s.whatsapp.net"` (used directly)
 
 If a name search returns multiple matches, the tool returns the list and asks the user to be more specific.
